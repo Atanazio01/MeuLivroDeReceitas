@@ -61,6 +61,15 @@ namespace MyRecipeBook.Exception {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Oops! That email doesn&apos;t look right..
+        /// </summary>
+        public static string VALIDATION_EMAIL_INVALID {
+            get {
+                return ResourceManager.GetString("VALIDATION_EMAIL_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Oops! Email is required..
         /// </summary>
         public static string VALIDATION_EMAIL_REQUIRED {
